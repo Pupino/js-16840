@@ -1,0 +1,9 @@
+.page-section-tratamientos {
+  .page-section-tratamientos__box {
+    background-color: $cream;
+    padding: 50px 20px;
+    .page-section-tratamientos__box--text-primary {
+      color: $gricesito !important;
+    }
+  }
+}
