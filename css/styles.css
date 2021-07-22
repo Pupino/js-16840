@@ -8390,6 +8390,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 #mainNav .navbar-nav .nav-item .dropdown-menu .nav-item .nav-link {
   color: black; }
 
+.nav-link {
+  font-size: 12px !important; }
+
+.navbar-brand {
+  font-size: 16px !important; }
+
 .page-section-tratamientos .page-section-tratamientos__box {
   background-color: cornsilk;
   padding: 50px 20px; }

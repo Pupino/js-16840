@@ -9,3 +9,11 @@
     }
   }
 }
+
+.nav-link {
+  font-size: $link-text - 2 !important;
+}
+
+.navbar-brand {
+  font-size: $link-text + 2 !important;
+}

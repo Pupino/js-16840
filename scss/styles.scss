@@ -1,5 +1,11 @@
 $cream: cornsilk;
 $gricesito: lightgrey;
+$link-text: 14px;
+
+$sector-colors: (
+  pair: $cream,
+  odd: $gricesito
+);
 
 @import 'bs'; //estilos del template bootstrap descargado
 @import 'navbar'; //estilos custom de la barra de navegacion
