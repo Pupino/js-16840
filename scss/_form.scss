@@ -9,3 +9,9 @@ section#contact form#contactForm .form-group textarea {
     padding: 1.25rem;
   }
 }
+
+@media (max-width: 991px) {
+  #submitButton {
+    padding: 0.8rem 1.2rem;
+  }
+}

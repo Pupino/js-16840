@@ -70,7 +70,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
+  font-weight: 400;
+  /*700;*/
   line-height: 1.2; }
 
 h1, .h1 {
@@ -8410,3 +8411,11 @@ section#contact form#contactForm .form-group textarea {
   section#contact form#contactForm .form-group input,
   section#contact form#contactForm .form-group textarea {
     padding: 1.25rem; } }
+
+@media (max-width: 991px) {
+  #submitButton {
+    padding: 0.8rem 1.2rem; } }
+
+@media (max-width: 991px) {
+  .masthead a {
+    padding: 0.8rem 1.2rem; } }
