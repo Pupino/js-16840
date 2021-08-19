@@ -8332,7 +8332,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/map-image-min.png");
   background-repeat: no-repeat;
   background-position: center; }
 
@@ -8397,10 +8397,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 .navbar-brand {
   font-size: 16px !important; }
 
-.page-section-tratamientos .page-section-tratamientos__box {
+.page-section .page-section__box {
   background-color: cornsilk;
   padding: 50px 20px; }
-  .page-section-tratamientos .page-section-tratamientos__box .page-section-tratamientos__box--text-primary {
+  .page-section .page-section__box .page-section__box--text-primary {
     color: lightgrey !important; }
 
 section#contact form#contactForm .form-group input,
@@ -8419,3 +8419,6 @@ section#contact form#contactForm .form-group textarea {
 @media (max-width: 991px) {
   .masthead a {
     padding: 0.8rem 1.2rem; } }
+
+.page-section {
+  padding: 6rem 0 2rem; }

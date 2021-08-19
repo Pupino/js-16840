@@ -1,8 +1,8 @@
-.page-section-tratamientos {
-  .page-section-tratamientos__box {
+.page-section {
+  .page-section__box {
     background-color: map-get($sector-colors, pair);
     padding: 50px 20px;
-    .page-section-tratamientos__box--text-primary {
+    .page-section__box--text-primary {
       color: map-get($sector-colors, odd) !important;
     }
   }
