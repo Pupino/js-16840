@@ -12,7 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "purify-css": "^1.2.5"
   },
   "dependencies": {},
   "repository": {
