@@ -97,10 +97,24 @@ function consultorioCreado() {
   //}
 }
 
-document
-  .getElementById('submitButton')
-  .addEventListener('click', function(event) {
-    event.preventDefault();
-    console.log('Dibujar la grilla con el consultorio creado');
-    consultorioCreado();
-  });
+if (document.getElementById('submitButton')) {
+  document
+    .getElementById('submitButton')
+    .addEventListener('click', function(event) {
+      event.preventDefault();
+      console.log('Dibujar la grilla con el consultorio creado');
+      consultorioCreado();
+    });
+}
+
+//Adding jQuery efect
+if ($('#masInfo')) {
+  $('#masInfo').hover(
+    function() {
+      $(this).css({ backgroundColor: '#d9aa00', color: '#212529' });
+    },
+    function() {
+      $(this).css({ backgroundColor: '#ffc800', color: '#fafafa' });
+    }
+  );
+}
