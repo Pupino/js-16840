@@ -118,3 +118,28 @@ if ($('#masInfo')) {
     }
   );
 }
+
+//animation on 'sobre mi' images page
+$('.rounded-circle')
+  .mouseover(function() {
+    $(this).addClass('flipped');
+  })
+  .mouseleave(function() {
+    $(this).removeClass('flipped');
+  });
+
+//relax button
+document.getElementById('relaxBtn').addEventListener('click', () => {
+  const spinner = document.getElementById('spinner');
+  spinner.removeAttribute('hidden');
+
+  fetch('https://www.boredapi.com/api/activity?type=relaxation')
+    .then(response => response.json())
+    .then(data => {
+      spinner.setAttribute('hidden', '');
+      console.log(data);
+      console.log('activity: ' + data.activity);
+      let relaxData = document.getElementById('relaxIdea');
+      relaxData.innerHTML = data.activity;
+    });
+});
